@@ -1,2 +1,10 @@
 [DESCRIBE]
   description?: This is the default stack, variables that are the same in all stacks should be defined here
+
+[DEBUG]
+  path: /default/c0ab65e1/debug
+  resolver?: ssm
+
+[AZURE_KEY]
+  path: default-156baa85-azure-key
+  resolver?: keyvault
