@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/onevor/ymir-example-project/issues"
   },
-  "homepage": "https://github.com/onevor/ymir-example-project#readme"
+  "homepage": "https://github.com/onevor/ymir-example-project#readme",
+  "devDependencies": {
+    "@onevor/ymir-plugin-azure-key-vault": "^0.0.8",
+    "@onevor/ymir-plugin-ssm": "^0.0.8"
+  }
 }
