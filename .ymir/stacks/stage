@@ -1,2 +1,14 @@
 [DESCRIBE]
   description?: This is the stack to use for the development environment
+
+[TOP_SECRET_VALUE]
+  path: /stage/e07401f6/top/secret/value
+  resolver?: ssm
+
+[PORT]
+  path: /stage/10b222ea/port
+  resolver?: ssm
+
+[DB_CONNECTION_STRING]
+  path: /stage/05d54302/db/connection/string
+  resolver?: ssm
