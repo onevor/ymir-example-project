@@ -6,7 +6,7 @@
 
 [FILE]
   path: ./
-  name: .env.ymir
+  name: .env
   description?: This is the default dot env file for all stacks
 
 [DEFAULT_RESOLVER]
